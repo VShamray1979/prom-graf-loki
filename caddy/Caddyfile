@@ -21,9 +21,6 @@
 }
 
 :3100 {
-    basicauth /* {
-        {$ADMIN_USER} {$ADMIN_PASSWORD_HASH}
-    }
     reverse_proxy loki:3100
 }
 
