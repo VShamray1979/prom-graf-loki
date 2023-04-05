@@ -35,3 +35,7 @@ limits_config:
 
 ruler:
   alertmanager_url: http://localhost:9093
+
+table_manager:
+  retention_deletes_enabled: true
+  retention_period: 168h  # Хранить логи в течение 1 недели
